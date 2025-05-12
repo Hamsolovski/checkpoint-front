@@ -1,0 +1,24 @@
+form {
+    background-color: rgb(236, 236, 236);
+    border: 0.5px, solid, lightgray;
+    border-radius: 5px;
+    padding: 1rem;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1em;
+    label {
+        display: flex;
+        flex-direction: column;
+        font-size: medium;
+        input, select {
+            padding: 0.5em;
+        }
+    }
+    @media screen and (width > 700px) {
+       flex-direction: row;
+       flex-flow: wrap;
+    }
+
+}
